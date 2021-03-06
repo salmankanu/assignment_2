@@ -11,7 +11,7 @@
 .header {
   padding: 80px;
   text-align: center;
-  background: #1abc9c;
+  background: #0b1110;
   color: white;
   height: 50px;
   
@@ -67,34 +67,92 @@
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
+    transition: 0.3s;
+    
   }
+  /*about me section design style*/
   #about-me {
       padding: 20px;
       background-color: lightseagreen;
       margin: 10px;
       
   }
+  /*work section design style*/
   #work {
     padding: 20px;
     background-color:lightseagreen;
     margin: 10px;
     
 }
-  
+/*container design style*/
+.container {
+  padding: 2px 16px;
+}
+  /* contact me section design*/
   #contact-me {
     padding: 20px;
     background-color: lightseagreen;
     margin: 10px;
   }
-
- 
+/*element type selector style floating left and right*/
+.float-left {
+  float: left;
+  margin-right: 25px;
+  padding:4px;
+  width: 60px 70px;
+  position: relative;
+  width: 250px;
+  height: 200px;
+  
+}
+/*img flow for work experience*/
+.float-top {
+   width: 250px;
+  height: 200px;
+  top: 30px;
+  left: 30px;
+  border: 1px green solid;
+  float: auto;
+padding: 4px;
+margin-top: 10px;
+flex-flow: wrap;
+}
+ /*footer style*/
 .footer {
-  padding: 10px;
+  padding: 15px;
   text-align: center;
   background: grey;
   margin: 0px;
   color: black;
 }
+.fa {
+  padding: 10px;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
 .content {
     background-color: lightblue;
     padding: 5px;
@@ -111,4 +169,16 @@
 #h1 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
+}
+#h3 {
+  font-size: 20px;
+  float: top;
+   
+}
+/*text flow for h2*/
+.h2 {
+  text-align: center;
+}
+#work-3-img {
+  float: left;
 }
