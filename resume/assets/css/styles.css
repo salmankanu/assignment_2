@@ -1,9 +1,11 @@
 
+/*box sizing design with border box*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+/*header design with centered text*/
 .header {
   text-align: center;
   padding: 20px;
@@ -23,6 +25,7 @@
     border-radius: 50%;
     float: center;
   }
+  /*resume image with centered design*/
   #resume-image {
     float: center;
   }
@@ -32,6 +35,7 @@
     display: table;
     clear: both;
   }
+  /*container design*/
   .container {
     background-color: rgb(67, 88, 102);
     padding: 30px;
@@ -40,7 +44,7 @@
     align:right;
     }
   }
-
+/*topnav design*/
   .topnav {
     height: 100%;
     width: 0;
@@ -52,9 +56,9 @@
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-    dis
+    
   }
-  
+  /*topnav links design*/
   .topnav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -63,12 +67,12 @@
     display: inline;
     transition: 0.3s;
   }
-  
-  .sidenav a:hover {
+  /*top navigation over design*/
+  .topnav a:hover {
     color: #f1f1f1;
   }
-  
-  .sidenav .closebtn {
+  /*topnav close bin design*/
+  .topnav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
@@ -76,7 +80,7 @@
     margin-left: 50px;
   }
 
-  
+  /*footer design*/
   .footer {
     padding: 15px;
     background-color: grey;
